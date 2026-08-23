@@ -1,0 +1,9 @@
+<perso>
+    <id>1</id>
+    <name>Lord Jim</name>
+    <email>jim@mail.ru</email>
+    <address>
+        <street>Main 1</street>
+        <city>New York</city>
+    </address>
+</perso>
