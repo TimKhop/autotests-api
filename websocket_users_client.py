@@ -1,7 +1,5 @@
 import asyncio
-
 import websockets
-
 
 
 async def client():
@@ -12,7 +10,7 @@ async def client():
         await websocket.send(message)
 
         for _ in range(5):
-            response = await websocket.recv()
-            print(f"Ответ от сервера {response}")
+            message = await websocket.recv()
+            print(message)
 
 asyncio.run(client())
