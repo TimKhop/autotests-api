@@ -9,6 +9,6 @@ message = "Привет, сервер!"
 client_socket.send(message.encode())
 
 response = client_socket.recv(1024).decode()
-print(f"Ответ от сервера: {response}")
+print(f"{response}")
 
 client_socket.close()
